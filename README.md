@@ -34,3 +34,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+---
+https://www.youtube.com/watch?v=btoUed8wg20&ab_channel=DevJuniorAlves
+
+npx eslint --init
+
+https://www.npmjs.com/package/eslint-plugin-react-hooks
+npm install eslint-plugin-react-hooks --save-dev
+
+https://www.npmjs.com/package/eslint-plugin-react
+npm install eslint eslint-plugin-react --save-dev
+
+https://prettier.io/docs/en/install
+
+https://jestjs.io/pt-BR/docs/getting-started
+npm install --save-dev jest
+
+https://testing-library.com/docs/
+https://www.npmjs.com/package/@testing-library/react
+npm install --save-dev @testing-library/react
+
+https://nextjs.org/docs/pages/building-your-application/optimizing/testing
+
+https://nextjs.org/docs/pages/building-your-application/optimizing/testing @swc/jest @types/jest
