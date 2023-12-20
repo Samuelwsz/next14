@@ -18,11 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
-        <aside className="fixed left-0 flex h-screen w-80 flex-col bg-green-300 pt-20 text-gray-50 shadow-lg">
+        <aside className="fixed left-0 flex h-screen w-50 flex-col bg-green-300 pt-20 text-gray-50 shadow-lg">
           <ActiveLink href="/">Home</ActiveLink>
           <ActiveLink href="/users">Users</ActiveLink>
+          <ActiveLink href="/solid">Solid Estudo</ActiveLink>
         </aside>
-        <div className="bg-slate-950 h-screen text-white">{children}</div>
+        <div className="bg-blue-950 h-screen text-white">{children}</div>
       </body>
     </html>
   );
