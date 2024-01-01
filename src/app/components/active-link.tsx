@@ -15,7 +15,7 @@ export const ActiveLink = ({ href, children, ...rest }: ActiveLinkProps) => {
     <>
       <Link
         href={href}
-        className="text-black py-1 px-10 font-semibold"
+        className="text-black py-1 px-2 font-semibold"
         {...rest}
       >
         <div className={`${isActive ? 'bg-green-500 p-1' : ''}`}>

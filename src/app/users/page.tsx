@@ -14,7 +14,7 @@ export default async function Users() {
   console.log(data);
 
   return (
-    <main className="py-4 text-center">
+    <main>
       <div className="flex flex-col">
         <Link href="/users/123">id</Link>
         {data.data.map((item) => {
