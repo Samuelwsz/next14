@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function ConceptsNext14Tutorial() {
   return (
-    <main className="h-screen">
+    <section className="h-screen">
       <div className="flex justify-between pb-4 text-xl font-semibold">
         <h1>Welcome</h1>
         <Link href="conceptsNext14/posts">Post</Link>
@@ -14,6 +14,6 @@ export default function ConceptsNext14Tutorial() {
         repellat voluptatibus possimus debitis accusantium molestiae, assumenda
         error iste. Non!
       </p>
-    </main>
+    </section>
   );
 }

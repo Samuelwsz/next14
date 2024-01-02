@@ -12,10 +12,10 @@ export default function Docs({ params }: { params: { slug: string[] } }) {
     return <h1>Viewing docs for feature {params.slug[0]}</h1>;
   }
   return (
-    <main className="h-screen flex flex-col">
+    <div className="h-screen flex flex-col">
       <h1>Docs home page</h1>
       <Link href="/conceptsNext14">Voltar</Link>
       <Link href="/conceptsNext14/docs/1/1">teste</Link>
-    </main>
+    </div>
   );
 }

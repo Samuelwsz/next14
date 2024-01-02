@@ -31,9 +31,8 @@ export default function RootLayout({
           <ActiveLink href="/users">Users</ActiveLink>
           <ActiveLink href="/conceptsNext14">ConceptsNext</ActiveLink>
           <ActiveLink href="/solid">Solid Estudo</ActiveLink>
-          <div className="mx-2"></div>
         </aside>
-        <div className="bg-blue-950 text-white px-52 py-28">{children}</div>
+        <main className="bg-blue-950 text-white px-52 py-28">{children}</main>
       </body>
     </html>
   );
