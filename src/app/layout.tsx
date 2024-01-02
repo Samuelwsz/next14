@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { ActiveLink } from './components/active-link';
+import Image from 'next/image';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,9 +20,16 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
         <aside className="fixed left-0 flex h-screen flex-col bg-green-300 pt-20 text-gray-50 shadow-lg">
+          <Image
+            src="/next.svg"
+            alt="next"
+            width="80"
+            height="80"
+            className="px-2 mb-3"
+          />
           <ActiveLink href="/">Home</ActiveLink>
           <ActiveLink href="/users">Users</ActiveLink>
-          <ActiveLink href="/12conceptsNext14">ConceptsNext</ActiveLink>
+          <ActiveLink href="/conceptsNext14">ConceptsNext</ActiveLink>
           <ActiveLink href="/solid">Solid Estudo</ActiveLink>
           <div className="mx-2"></div>
         </aside>
