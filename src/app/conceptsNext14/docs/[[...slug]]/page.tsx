@@ -1,5 +1,12 @@
 import Link from 'next/link';
 
+import { Metadata } from 'next';
+
+//a saida sera Docs | Concepts Next 14
+export const metadata: Metadata = {
+  title: 'Docs',
+};
+
 export default function Docs({ params }: { params: { slug: string[] } }) {
   if (params.slug?.length === 2) {
     return (
