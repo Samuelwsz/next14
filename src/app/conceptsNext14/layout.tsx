@@ -1,7 +1,10 @@
 'use client';
 
+//nesse exemplo a pagina layout foi renomeada para template.tsx, com o layout ao usar um useState o valor no input se mantem conforme mudo de pagina, mas ao usar template o input reseta a cada navegação de página
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useState } from 'react';
 
 const navLinks = [
   {
@@ -20,8 +23,18 @@ export default function ConceptsNext14Layout({
   children: React.ReactNode;
 }) {
   const pathname = usePathname();
+  const [input, setInput] = useState('');
+
   return (
     <section className="bg-blue-950 text-white">
+      <div>
+        <input
+          type="text"
+          value={input}
+          className="text-black mb-2"
+          onChange={(e) => setInput(e.target.value)}
+        />
+      </div>
       <nav className="flex gap-3 pb-3 justify-center bg-white">
         {navLinks.map((link) => {
           const isActive = pathname.startsWith(link.href);
