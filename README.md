@@ -59,3 +59,6 @@ npm install --save-dev @testing-library/react
 https://nextjs.org/docs/pages/building-your-application/optimizing/testing
 
 https://nextjs.org/docs/pages/building-your-application/optimizing/testing @swc/jest @types/jest
+
+
+### [Link do video](https://www.youtube.com/watch?v=btoUed8wg20&ab_channel=DevJuniorAlves)
