@@ -34,7 +34,9 @@ export default function RootLayout({
           <ActiveLink href="/">Home</ActiveLink>
           <ActiveLink href="/users">Users</ActiveLink>
           <ActiveLink href="/conceptsNext14">ConceptsNext</ActiveLink>
-          <ActiveLink href="/solid">Solid Estudo</ActiveLink>
+          <ActiveLink href="/rocketseatNext14tutorial">
+            RocketseatNext14
+          </ActiveLink>
         </aside>
         <main className="bg-blue-950 text-white px-52 py-28">{children}</main>
       </body>

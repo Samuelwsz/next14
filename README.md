@@ -59,3 +59,12 @@ npm install --save-dev @testing-library/react
 https://nextjs.org/docs/pages/building-your-application/optimizing/testing
 
 https://nextjs.org/docs/pages/building-your-application/optimizing/testing @swc/jest @types/jest
+
+https://www.youtube.com/watch?v=6JnkwfrAI-U&ab_channel=Rocketseat
+
+https://www.npmjs.com/package/json-server
+
+npm i json-server -D
+
+npx json-server server.json -w -p 3333
+

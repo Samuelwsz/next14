@@ -11,8 +11,6 @@ export default async function Users() {
     'http://localhost:3000/examplerouteapi',
   );
 
-  console.log(data);
-
   return (
     <main>
       <div className="flex flex-col">
