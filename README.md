@@ -68,3 +68,5 @@ npm i json-server -D
 
 npx json-server server.json -w -p 3333
 
+
+### [Link do video](https://www.youtube.com/watch?v=btoUed8wg20&ab_channel=DevJuniorAlves)
