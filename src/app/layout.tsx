@@ -37,8 +37,9 @@ export default function RootLayout({
           <ActiveLink href="/rocketseatNext14tutorial">
             RocketseatNext14
           </ActiveLink>
+          <ActiveLink href="/SimpleTodoTutorial">Todo</ActiveLink>
         </aside>
-        <main className="bg-blue-950 text-white px-52 py-28">{children}</main>
+        <main className="bg-slate-800 text-white px-52 py-28">{children}</main>
       </body>
     </html>
   );

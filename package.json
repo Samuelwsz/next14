@@ -12,6 +12,7 @@
     "server": "json-server server.json --watch --port 3333"
   },
   "dependencies": {
+    "@formkit/auto-animate": "^0.8.1",
     "axios": "^1.6.2",
     "next": "14.0.4",
     "react": "^18",
